@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.inputField{
+padding: 10px 14px;
+background-color: rgb(255, 249, 249);
+width: 100%;
+font-size: 20px;
+border: none;
+background-color: transparent;
+border-bottom: 1px solid black;
+outline: none;
+}
+::placeholder{
+    color: white;
+}
+
+.form{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid black;
+ border-radius: 10px;
+ outline: none;
+ width: 30vw;
+ margin-inline: auto;
+padding: 50px;
+/* backdrop-filter: blur(15px); */
+backdrop-filter: blur(10px);
+background-color: rgba(255, 255, 255, 0.2); 
+/* box-shadow: -4px 5px 6px 10px rgba(255, 255, 255, 0.4); */
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.submitBtn{
+    padding: 13px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background: black;
+    color:white;
+    outline: none;
+    font-weight: 500;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)2s;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.submitBtn:hover{
+    background: rgb(252, 88, 7);
+    border: none;
+}
+section{
+    background-image: url("https://www.savethestudent.org/uploads/flights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    font-family: poppins;
+}
+#date{
+    color: white;
+}
